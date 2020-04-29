@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rickypai/golang-boilerplate/helloworld/hello"
+	"github.com/rickypai/jenkins-stats/helloworld/hello"
 )
 
 func main() {

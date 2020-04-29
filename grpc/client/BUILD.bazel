@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "github.com/rickypai/golang-boilerplate/grpc/client",
+    importpath = "github.com/rickypai/jenkins-stats/grpc/client",
     visibility = ["//visibility:private"],
     deps = [
         "//grpc/common:go_default_library",

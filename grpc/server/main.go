@@ -25,8 +25,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/rickypai/golang-boilerplate/grpc/common"
-	pb "github.com/rickypai/golang-boilerplate/protobufs/helloworld"
+	"github.com/rickypai/jenkins-stats/grpc/common"
+	pb "github.com/rickypai/jenkins-stats/protobufs/helloworld"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
