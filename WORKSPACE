@@ -130,3 +130,10 @@ github_go_repository(
     importpath = "golang.org/x/sys",
     repo_url = "github.com/golang/sys",
 )
+
+go_repository(
+    name = "com_github_bndr_gojenkins",
+    importpath = "github.com/bndr/gojenkins",
+    sum = "h1:DFIuamRSmXoI/CwB44txuRf8xaHZNejZge/Lui4RYD4=",
+    version = "v1.0.1",
+)
