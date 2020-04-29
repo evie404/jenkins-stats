@@ -1,11 +1,10 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 load("@com_github_bazelbuild_buildtools//buildifier:def.bzl", "buildifier")
-load("//:constants.bzl", "GO_PREFIX")
 
 gazelle(
     name = "gazelle",
     external = "external",
-    prefix = GO_PREFIX,
+    prefix = "github.com/rickypai/jenkins-stats",
 )
 
 buildifier(
@@ -17,6 +16,6 @@ load("@com_github_atlassian_bazel_tools//goimports:def.bzl", "goimports")
 goimports(
     name = "goimports",
     display_diffs = True,
-    prefix = GO_PREFIX,
+    prefix = "github.com/rickypai/jenkins-stats",
     write = True,
 )
